@@ -1,26 +1,52 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+ <div class="wrapper">
+    <div class="header">
+        <HeaderBar />
+    </div>
+    <div class="section-welcome">
+          <section>
+            <SecHome />
+          </section>
+    </div>
+    <div class="section-aboutme">
+      <section>
+        <SecAboutme />
+      </section>
+    </div>
+    <div class="section-services">
+      <section>
+        <SecServices />
+      </section>
+    </div>
+    <div class="section-bookservice">
+      <section>
+        <SecBook />
+      </section>
+    </div>
+ </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderBar from './components/HeaderBar.vue'
+import SecAboutme from './views/SecAboutme.vue'
+import SecBook from './views/SecBook.vue';
+import SecHome from './views/SecHome.vue'
+import SecServices from './views/SecServices.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderBar,
+    SecHome,
+    SecAboutme,
+    SecServices,
+    SecBook,
+    
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import './main.css';
 </style>
