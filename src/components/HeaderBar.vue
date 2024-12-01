@@ -4,8 +4,8 @@
             <nav>
                 <!-- Logo Section (Placed on the left for mobile) -->
                 <div class="logo">
-                    <i class="fa-solid fa-notes-medical" style="font-size: 40px;">
-                        <span class="logo1">CheirSar.MD</span>
+                    <i class="fa-solid fa-notes-medical" style="font-size: 40px;color:red;">
+                        <span class="logo1" style="color: black;">CheirSar.MD</span>
                         <span class="logo2">| FamilyDr</span>
                     </i>
                 </div>
@@ -72,6 +72,7 @@ export default {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     position: relative;
+    z-index: 10000;
 }
 
 nav {

@@ -14,9 +14,14 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
         </div>
         <div class="col">
@@ -27,9 +32,14 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
         </div>
         <div class="col">
@@ -40,9 +50,14 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
       </div>
       <div class="col">
@@ -53,9 +68,14 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
       </div>
       <div class="col">
@@ -66,9 +86,14 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
       </div>
       <div class="col">
@@ -79,9 +104,14 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
       </div>
       <div class="col">
@@ -92,9 +122,14 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
       </div>
       <div class="col">
@@ -105,9 +140,14 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
       </div>
       <div class="col">
@@ -118,13 +158,25 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button>
-                Book Now
-            </button>
+            <button class="button" style="width: 180px; margin: auto;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
         </div>
       </div>
       <div class="seemore mt-4 mb-5" style="margin: auto;">
-        <button class="text-center">See More</button>
+        <button class="button" style="width: 250px; margin: auto; background-color:#2D8C87;">
+        <div class="backdrop">
+          <span>See More</span>
+        </div>
+        <div class="overlay" style="background-color:#FF7043 ;">
+          <span>See More</span>
+        </div>
+      </button>
       </div>
         
       </div>
@@ -138,6 +190,7 @@ export default{
 }
 </script>
 <style scoped>
+@import '../css/button.css';
 .main-secservices{
     width: 100%;
 }
@@ -156,10 +209,10 @@ export default{
     margin-bottom: 20px;
 }
 button{
-    width: 120px;
+    /* width: 120px; */
     padding: 6px;
     border-radius: 10px;
-    background-color: none;
-    border: 2px solid #FFB74D;
+    background-color: #FF7043;
+    /* border: 2px solid #FFB74D; */
 }
 </style>

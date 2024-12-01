@@ -23,6 +23,26 @@
         <SecBook />
       </section>
     </div>
+    <div class="section-client">
+      <section>
+        <SecClient />
+      </section>
+    </div>
+    <div class="section-contact">
+      <section>
+        <SecContact /> 
+      </section>
+    </div>
+    <div class="section-location">
+      <section>
+        <SecLoca />
+      </section>
+    </div>
+    <div class="section-footer">
+      <section>
+        <SecFoot /> 
+      </section>
+    </div>
  </div>
 </template>
 
@@ -32,7 +52,10 @@ import SecAboutme from './views/SecAboutme.vue'
 import SecBook from './views/SecBook.vue';
 import SecHome from './views/SecHome.vue'
 import SecServices from './views/SecServices.vue'
-
+import SecClient from './views/SecClient.vue'
+import SecContact from './views/SecContact.vue';
+import SecLoca from './views/SecLoca.vue';
+import SecFoot from './views/SecFoot.vue';
 
 export default {
   name: 'App',
@@ -42,6 +65,10 @@ export default {
     SecAboutme,
     SecServices,
     SecBook,
+    SecClient,
+    SecContact,
+    SecLoca,
+    SecFoot,
     
   }
 }
