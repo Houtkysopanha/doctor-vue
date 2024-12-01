@@ -26,7 +26,14 @@ Residency in Family Medicine - University <br> of Dulton Health Science Center.<
               <div>
                 <br>
                 <br>
-                <button>Read More</button>
+                <button class="button" style="width: 200px;">
+        <div class="backdrop">
+          <span>Read More</span>
+        </div>
+        <div class="overlay">
+          <span>Read More</span>
+        </div>
+      </button>
               </div>
             </div>
           </div>

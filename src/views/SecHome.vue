@@ -4,7 +4,14 @@
             <div class="name">
                 <p class="p1">Night CheirDa MD</p>
                 <p class="p2 mb-5">Helping to build a Healthy Community.</p>
-                <button>Book an Appointment</button>
+                <button class="button" style="margin: auto; width: 300px;">
+        <div class="backdrop">
+          <span>Book an Appointment</span>
+        </div>
+        <div class="overlay">
+          <span>Book an Appointment</span>
+        </div>
+      </button>
             </div>
         </div>
     </div>
@@ -17,10 +24,11 @@ export default {
 </script>
 
 <style scoped>
+@import '../css/button.css';
 .main-home {
     width: 100%;
     height: 925px; /* Default height for large screens */
-    background-image: url(https://img.freepik.com/free-photo/doctor-checking-medical-condition-patient_23-2148728404.jpg?t=st=1732973039~exp=1732976639~hmac=45cb6584f644430d464a37a6c99431f5baa82500ba767b893ecdf3b49b9648dd&w=2000);
+    background-image: url(../assets/doctor-checking-medical-condition-patient_23-2148728404.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
