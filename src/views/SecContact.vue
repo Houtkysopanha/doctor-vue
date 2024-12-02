@@ -3,7 +3,7 @@
     <div class="container mt-5 px-4 text-start">
       <div class="row gx-0">
         <div class="col">
-          <div class="p-3 bg1">
+          <div class="p-4 bg1">
             <div class="header">
               <p>Contact</p>
             </div>
@@ -43,7 +43,7 @@
                 ></textarea>
               </div>
               <br />
-              <button class="button" style="width: 200px;">
+              <button class="button" style="width: 150px;">
         <div class="backdrop">
           <span>Submit</span>
         </div>
@@ -118,4 +118,24 @@ button{
                   border-radius: 10px;
                   background-color: #ff7043;
 }
+@media (max-width: 768px){
+  .Fullname{
+    flex-direction: column;
+    width: 100%;
+  }
+  .Fullname, .FirsName{
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 450px){
+  .Fullname{
+    flex-direction: column;
+  }
+  .Fullname .FirsName{
+    margin-bottom: 5px;
+  }
+}
+
 </style>

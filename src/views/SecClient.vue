@@ -14,12 +14,12 @@
         <hr style="width: 60%; margin: auto;">
         <br>
         <br>
-        <div class="img-in">
+        <!-- <div class="img-in">
             <img src="../assets/insurance.png" alt="">
             <img src="../assets/insurance.png" alt="">
             <img src="../assets/insurance.png" alt="">
             <img src="../assets/insurance.png" alt="">
-        </div>
+        </div> -->
         </div>
         <br>
         <br>

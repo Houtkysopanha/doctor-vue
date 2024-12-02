@@ -1,17 +1,21 @@
 <template>
     <div class="main-home">
         <div class="container">
-            <div class="name">
-                <p class="p1">Night CheirDa MD</p>
+            <div data-aos="fade-down"
+            data-aos-anchor-placement="center" class="name">
+                <p  class="p1">Night CheirSa MD</p>
                 <p class="p2 mb-5">Helping to build a Healthy Community.</p>
-                <button class="button" style="margin: auto; width: 300px;">
-        <div class="backdrop">
-          <span>Book an Appointment</span>
-        </div>
-        <div class="overlay">
-          <span>Book an Appointment</span>
-        </div>
-      </button>
+                <router-link style="color: transparent;" to="/ServicesPage" class="button-link">
+  <button class="button" style="margin: auto;">
+    <div class="backdrop">
+      <span style="font-size: 18px;">Book an Appointment</span>
+    </div>
+    <div class="overlay">
+      <span>Book an Appointment</span>
+    </div>
+  </button>
+</router-link>
+
             </div>
         </div>
     </div>
@@ -62,6 +66,7 @@ export default {
     background-color: #FFB74D;
     border-radius: 15px;
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .main-home {
