@@ -42,10 +42,27 @@
     </div>
     <!-- Sidebar (Slides from left) -->
     <div class="sidebar" :class="{ open: isSidebarOpen }">
+      <div class="Profile">
+        <div class="img">
+          <img style="width: 40px; height: 40px; border-radius: 50%; " src="https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/425749611_1118980949343592_6175213285778934909_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=2yN3vuh67B0Q7kNvgESnS58&_nc_zt=23&_nc_ht=scontent.fpnh10-1.fna&_nc_gid=AfMuliPfKzqOpVpyM3huGJI&oh=00_AYA3o-5IcjRpRohCGoo2cCipEtZTBwDnIVNYmrjUeunL0w&oe=67533734" alt="">
+        </div>
+        <hr>
+        <div class="name">
+          <p>Houtkysopanha</p>
+
+        </div>
+      </div>
+      <hr>
+
       <ul>
+        <li><router-link to="#home">Home</router-link></li>
+        <hr>
         <li><router-link to="#meet-dr">Meet Dr</router-link></li>
+        <hr>
         <li><router-link to="#services">Service</router-link></li>
+        <hr>
         <li><router-link to="#book">Patient Infor</router-link></li>
+        <hr>
         <li><router-link to="#contact">Contact</router-link></li>
       </ul>
     </div>
@@ -221,7 +238,7 @@ ul > li > a:hover {
 }
 
 .sidebar ul li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .sidebar ul li a {
@@ -232,7 +249,7 @@ ul > li > a:hover {
 }
 
 .sidebar ul li a:hover {
-  color: #007bff; /* Add hover effect */
+  color: pink; /* Add hover effect */
 }
 
 /* Backdrop */

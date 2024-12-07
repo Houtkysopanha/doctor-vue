@@ -14,7 +14,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -22,6 +23,7 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
         </div>
         <div class="col">
@@ -32,7 +34,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -40,6 +43,7 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
         </div>
         <div class="col">
@@ -50,7 +54,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -58,6 +63,7 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
       </div>
       <div class="col">
@@ -68,7 +74,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -76,6 +83,7 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
       </div>
       <div class="col">
@@ -86,7 +94,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -94,6 +103,7 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
       </div>
       <div class="col">
@@ -104,7 +114,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -112,6 +123,7 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
       </div>
       <div class="col">
@@ -122,7 +134,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -130,6 +143,7 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
       </div>
       <div class="col">
@@ -140,7 +154,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -148,6 +163,7 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
       </div>
       <div class="col">
@@ -158,7 +174,8 @@
             <div class="name-list">
                 <p>Blood Work</p>
             </div>
-            <button class="button" style="width: 180px; margin: auto;">
+            <router-link to="/ServicesPage" style="text-decoration: none;">
+              <button class="button" style="width: 180px; margin: auto;">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -166,10 +183,12 @@
           <span>Read More</span>
         </div>
       </button>
+            </router-link>
         </div>
       </div>
       <div class="seemore mt-4 mb-5" style="margin: auto;">
-        <button class="button" style="width: 250px; margin: auto; background-color:#2D8C87;">
+        <router-link to="/ServicesPage" style="text-decoration: none;">
+          <button class="button" style="width: 250px; margin: auto; background-color:#2D8C87;">
         <div class="backdrop">
           <span>See More</span>
         </div>
@@ -177,6 +196,7 @@
           <span>See More</span>
         </div>
       </button>
+        </router-link>
       </div>
         
       </div>
