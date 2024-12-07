@@ -26,7 +26,7 @@ Residency in Family Medicine - University <br> of Dulton Health Science Center.<
               <div>
                 <br>
                 <br>
-                <button class="button" style="width: 200px;">
+                <button class="button" style="width: 200px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <div class="backdrop">
           <span>Read More</span>
         </div>
@@ -40,11 +40,75 @@ Residency in Family Medicine - University <br> of Dulton Health Science Center.<
         </div>
         <div class="col p-0">
           <img
-            src="https://img.freepik.com/free-photo/successful-doctor-working-office_1098-19735.jpg?t=st=1732961882~exp=1732965482~hmac=adcdb921c69e792e51af225a04974f1d779d3cffc5b920624ecad2ba464af303&w=900"
+            src="../assets/IMG1.jpg"
             alt=""
           />
         </div>
       </div>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content" style="margin-top: 90px;">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+  <div class="col" style="flex: 1; position: relative;">
+    <div class="image" style="width: 100%; height: 100%; overflow: hidden;">
+      <img src="../assets/IMG2.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+  </div>
+  <div class="col">
+    <div class="content" style="padding: 100px; margin-top: 100px;">
+      <div class="name">
+        <p class="p1">About CheirSa MD</p>
+      </div>
+      <div class="describe">
+          <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I'm a great place for you to tell a story and let your users know a little more about you.</p>
+          <p>This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide.
+            Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- row2 -->
+        <div class="row">
+          <div class="col">
+    <div class="content" style="padding: 100px; margin-top: 100px;">
+      <div class="describe">
+          <p>At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s Coming Soon in Wix ellaneous in Support. Feel free to tell us what you think and give us feedback in the Wix Forum. If you’d like to benefit from a professional designer’s touch, head to the Wix Arena and connect with one of our Wix Pro designers. Or if you need more help you can simply type your questions into the Support Forum and get instant answers. To keep up to date with everything Wix, including tips and things we think are cool, just head to the Wix Blog!</p>
+          
+      </div>
+      <div class="educ">
+              <p class="p3">Education</p>
+              <br>
+              <div class="detail">
+                <p>Medical School - University of Dulton <br> Health Science Center.</p>
+                <p>
+Residency in Family Medicine - University <br> of Dulton Health Science Center.</p>
+              </div>
+              <div>
+                <br>
+                <br>
+              </div>
+            </div>
+    </div>
+  </div>
+          <div class="col ">
+            <div class="image" style="width: 100%;">
+              <img src="../assets/IMG3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   </template>
   
@@ -112,6 +176,13 @@ button{
     border: none;
     border-radius: 10px;
     background-color: #FFB74D;
+}
+.row{
+  width: 100%;
+  display: flex;
+}
+.col{
+  width: calc(1005/2);
 }
 
 /* Responsive Design for Smaller Screens */

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MainLayout from '@/views/MainLayout.vue';
 import ServicesPage from '@/views/ServicesPage.vue';
+import SecBook1 from '@/views/SecBook1.vue';
 
 const routes = [
   {
@@ -14,6 +15,11 @@ const routes = [
     component: ServicesPage,
     name: 'ServicesPage',
     meta: { title: 'Services' },
+  },
+  {
+    path: '/Books',
+    component: SecBook1,
+    name: 'SecBook1',
   },
   {
     path: '/:pathMatch(.*)*',
